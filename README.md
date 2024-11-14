@@ -33,7 +33,7 @@ PT-BR
    
 4.1 Cadastro, edição, deleção e visualização de clientes, produtos e vendas, permitindo a atualização dos dados conforme as informações fornecidas previamente.
 
-6. Conclusão
+5. Conclusão
    
 5.1 No presente projeto foi focado em um processo de aprendizagem e desenvolvimento pessoal, sua construção é um processo em andamento e o mesmo está disponível 
 para uso da comunidade.
@@ -43,10 +43,11 @@ para uso da comunidade.
 CRUD WINDOWS FORM .NET CORE 8
 EN
 
-Introduction
+1. Introduction
+   
 1.1 A registration system that operates based on CRUD principles, receiving the necessary fields for the registration and management of clients, products, and sales.
 
-2. General Application Information
+3. General Application Information
 
 2.1 Technologies Used
 
@@ -57,16 +58,21 @@ Introduction
 2.2.1 PostgreSQL 17 and PgAdmin (or your preferred graphical interface), .NET Core 8 SDK, Visual Studio 2022.
 
 3. Application Execution Setup
+   
 3.1 Database
-3.1.1 Create a database named "Postgres" (the database created automatically by PgAdmin will suffice) and create the necessary ConnectionString for use. Example:
 
+3.1.1 Create a database named "Postgres" (the database created automatically by PgAdmin will suffice) and create the necessary ConnectionString for use. Example:
+![image](https://github.com/user-attachments/assets/d2885293-405c-45ea-a847-31eff0b8ce31)
 
 3.1.2 After opening Visual Studio 2022, run the command "Add-Migration MigrationName" in the Package Manager Console.
+
 3.1.3 Run the command "Update-Database" in the Package Manager Console.
+
 3.1.4 Run the application from Visual Studio.
 
 4. Features
+   
 4.1 Registration, editing, deletion, and viewing of clients, products, and sales, allowing data updates based on the previously provided information.
 
-5. Conclusion
+6. Conclusion
 5.1 This project focused on a learning and personal development process. Its construction is ongoing, and it is available for community use.
